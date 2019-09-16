@@ -1,0 +1,18 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - DTNSim",
+            "request": "launch",
+            "mainClass": "core.DTNSim",
+            "projectName": "1_energyResearch"
+        },
+        {
+            "type": "java",
+            "name": "Test Debug (Launch)",
+            "request": "launch",
+            "mainClass": "junit.textui.TestRunner",
+            "args": "test.AllTests"
+		}
+    ]
+}
