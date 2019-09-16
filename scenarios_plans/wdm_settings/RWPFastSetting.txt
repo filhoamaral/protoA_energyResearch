@@ -72,9 +72,9 @@ MapBasedMovement.mapFile1 = data/HelsinkiMedium/roads.wkt
 # how many reports to load
 Report.nrofReports = 8
 # default directory of reports (can be overriden per Report with output setting)
-Report.reportDir = [reports/RWPFast/1; reports/RWPFast/2; reports/RWPFast/3; reports/RWPFast/4; reports/RWPFast/5]
-#Report.reportDir = [reports/r1; reports/r2]
-#Report.reportDir = reports/
+Report.reportDir = [scenarios_plans/reports/RWPFast/1; scenarios_plans/reports/RWPFast/2; scenarios_plans/reports/RWPFast/3; scenarios_plans/reports/RWPFast/4; scenarios_plans/reports/RWPFast/5]
+#Report.reportDir = [scenarios_plans/reports/r1; scenarios_plans/reports/r2]
+#Report.reportDir = scenarios_plans/reports/
 
 # Report classes to load
 Report.report1 = InterContactTimesReport

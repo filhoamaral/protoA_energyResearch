@@ -10,4 +10,4 @@ MovementModel.rngSeed = 0
 Report.nrofReports = 1
 Report.report1 = MessageStatsReport
 
-Report.reportDir = snwcomp_reports/
+Report.reportDir = scenarios_plans/reports/snwcomp_reports/

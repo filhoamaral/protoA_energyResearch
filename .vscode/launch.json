@@ -9,6 +9,15 @@
         },
         {
             "type": "java",
+            "name": "CodeLens (Launch) - DTNSim Arg",
+            "request": "launch",
+            "mainClass": "core.DTNSim",
+            "projectName": "1_energyResearch",
+            "args": ["-b", "1:1", "test_plans/example_settings/cluster_settings.txt"]
+        },
+
+        {
+            "type": "java",
             "name": "Test Debug (Launch)",
             "request": "launch",
             "mainClass": "junit.textui.TestRunner",
