@@ -6,10 +6,10 @@ Group.router = ProphetRouter
 ProphetRouter.secondsInTimeUnit = 30
 
 # Define POI data files
-PointsOfInterest.poiFile1 = data/ParkPOIs.wkt
-PointsOfInterest.poiFile2 = data/CentralPOIs.wkt
-PointsOfInterest.poiFile3 = data/WestPOIs.wkt
-PointsOfInterest.poiFile4 = data/shops.wkt
+PointsOfInterest.poiFile1 = scenarios_plans/data/ParkPOIs.wkt
+PointsOfInterest.poiFile2 = scenarios_plans/data/CentralPOIs.wkt
+PointsOfInterest.poiFile3 = scenarios_plans/data/WestPOIs.wkt
+PointsOfInterest.poiFile4 = scenarios_plans/data/shops.wkt
 
 # Define probabilities for different groups selecting POIs from different POI files
 Group1.pois = 1,0.3, 2,0.1, 3,0.1, 4, 0.1
