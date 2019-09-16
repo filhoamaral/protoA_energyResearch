@@ -12,7 +12,7 @@ doc/resources/*.gif
 doc/package-list
 
 # Eclipse IDE files
-.classpath
-.project
+#.classpath
+#.project
 /target/
-.settings/org.eclipse.*
+#.settings/org.eclipse.*
