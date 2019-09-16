@@ -3,6 +3,7 @@
 
 # Simulation report files
 *reports*/*.txt
+scenarios_plans/reports*/**/*.txt
 
 # Javadocs
 *.html
