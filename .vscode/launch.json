@@ -2,18 +2,18 @@
     "configurations": [
         {
             "type": "java",
-            "name": "CodeLens (Launch) - DTNSim",
+            "name": "DTNSim_ModeUI",
             "request": "launch",
             "mainClass": "core.DTNSim",
             "projectName": "1_energyResearch"
         },
         {
             "type": "java",
-            "name": "CodeLens (Launch) - DTNSim Arg",
+            "name": "DTNSim_ModeBach_Arg",
             "request": "launch",
             "mainClass": "core.DTNSim",
             "projectName": "1_energyResearch",
-            "args": ["-b", "1:1", "test_plans/example_settings/cluster_settings.txt"]
+            "args": ["-b", "1:1", "scenarios_plans/wdm_settings/BusVsCar0.txt"]
         },
 
         {
