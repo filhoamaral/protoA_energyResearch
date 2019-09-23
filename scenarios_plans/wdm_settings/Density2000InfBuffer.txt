@@ -48,7 +48,7 @@ Group1.speed = 7, 10
 Group1.waitTime = 10, 30
 Group1.nrofHosts = 18
 Group1.movementModel = BusMovement
-Group1.routeFile = scenarios_plans/data/HelsinkiMedium/H_bus.wkt
+Group1.routeFile = data/HelsinkiMedium/H_bus.wkt
 Group1.routeType = 2
 Group1.busControlSystemNr = 8
 
@@ -88,7 +88,7 @@ MovementModel.warmup = 43000
 ## Map based movement -movement model specific settings
 MapBasedMovement.nrofMapFiles = 1
 
-MapBasedMovement.mapFile1 = scenarios_plans/data/HelsinkiMedium/roads.wkt
+MapBasedMovement.mapFile1 = data/HelsinkiMedium/roads.wkt
 
 ## Reports - all report names have to be valid report classes
 
@@ -125,7 +125,7 @@ Optimization.randomizeUpdateOrder = true
 ## GUI settings
 
 # GUI underlay image settings
-GUI.UnderlayImage.fileName = scenarios_plans/data/helsinki_underlay.png
+GUI.UnderlayImage.fileName = data/helsinki_underlay.png
 # Image offset in pixels (x, y)
 GUI.UnderlayImage.offset = 64, 20
 # Scaling factor for the image

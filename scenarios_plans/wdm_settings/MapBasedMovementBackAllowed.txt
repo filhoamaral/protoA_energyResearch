@@ -65,7 +65,7 @@ MovementModel.warmup = 43000
 ## Map based movement -movement model specific settings
 MapBasedMovement.nrofMapFiles = 1
 
-MapBasedMovement.mapFile1 = scenarios_plans/data/HelsinkiMedium/roads.wkt
+MapBasedMovement.mapFile1 = data/HelsinkiMedium/roads.wkt
 
 ## Reports - all report names have to be valid report classes
 
@@ -102,7 +102,7 @@ Optimization.randomizeUpdateOrder = true
 ## GUI settings
 
 # GUI underlay image settings
-GUI.UnderlayImage.fileName = scenarios_plans/data/helsinki_underlay.png
+GUI.UnderlayImage.fileName = data/helsinki_underlay.png
 # Image offset in pixels (x, y)
 GUI.UnderlayImage.offset = 64, 20
 # Scaling factor for the image
